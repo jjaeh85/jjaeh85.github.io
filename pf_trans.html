@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height">
+  <link rel="stylesheet" type="text/css" href="pf.css"/>
+   <title>Jeong.jaehwa.v2</title>
+ </head>
+
+ <body>
+
+  <header>
+  	<div class ="top">
+  		<div class = "topframe">
+			<div class = "end_prev">
+  				<a href= index.html><div class ="end_prev_img"></div></a>
+			</div>
+  		</div>
+  	</div>
+  </header>
+
+
+<!--common------------------------------------------------------------------------------------------->
+
+
+  <section>
+ 	<div class ="common_top">
+ 		<div class ="title_box">
+			<div class ="title_contents">
+ 				<div class ="artcle_circle"></div>
+ 				<div class ="title">
+ 					<txt_title>
+ 					NAVER Labs<br>
+ 					Translate
+ 					</txt_title>
+				</div>
+ 			</div>
+ 		</div>
+ 		<div class ="description_box">
+			<div class ="description_contents">
+ 				<div class ="bar"></div>
+ 				<div class ="description">
+ 					<txt_description>
+ 					Creadit.<br>
+ 					NAVER Corp / Creative Lab.<br>
+ 					Kim Sungji / Jeong Jaehwa<br>
+ 					-<br>
+ 					February. 2016
+ 					</txt_description>
+ 					</div>
+				</div>
+ 			</div>
+ 		<div class ="num">
+			<div class ="num_contents">
+ 				<div class ="txt_number"><txt_number>01<br>78</txt_number></div>
+				<div class ="num_bar"></div>
+			</div>
+ 		</div>
+ 	</div>
+
+
+
+<!--article------------------------------------------------------------------------------------------->
+
+
+  <div class = "article_Contents">
+ 	<div class ="keyimg">
+ 		<div class ="imgbox"><img src="img/pf/trans/trans_topimg.png" style= "width:100%; max-width:1080px; height: auto; alt=네이버 랩스 번역기 프로토타입">
+ 	</div>
+ 	
+ 	<div class ="text" style= "margin-top:31px;">
+ 		<aricle_txt_kor>
+ 		네이버랩스가 개발한 문장의 앞뒤맥락에 의한 한중일영 번역앱 초기 프로토타입이다. 
+ 		번역할 문장을 상단에 배치하고 번역된 문장을 하단 배치를 디폴트로 하되, 
+ 		1대1로 배치하여 필요에 따라 번갈아 사용하기 용이한 인터페이스를 고려하였다. 
+ 		기계번역, 음성, OCR, 글로벌회화까지 1대1 컨셉으로 구성된 UI에 통일된 사용 경험을 위한 고민을 하였다.
+ 		</aricle_txt_kor>
+ 	</div>
+
+
+ 	<div class ="bar_nomargin" style= "margin-top:80px;"></div>
+ 	<div class ="text" style= "margin-top:30px;">
+ 		<txt_title>Basic<br>Structure</txt_title>
+ 	</div>
+ 	<div class ="text" style= "margin-top:19px;">
+ 		<aricle_txt_kor>
+		초기 디폴트는 중앙 라인을 기준으로 위쪽으로 Input영역 아래쪽으로 Output영역으로 나누어진다. 
+		기본적인 번역부터 음성번역, OCR, 글로벌회화의 번역할 문장 혹은 이미지는 위쪽에 배치되고 아래영역에 결과가 출력되는 구조이다. 
+		상황에 따라서 위와 아래의 언어를 바꿀 수 있다.
+		</aricle_txt_kor>
+ 	</div>
+ 	<div class ="text" style= "margin-top:13px;">
+ 		<img src="img/pf/trans/trans_feature_01.png" style= "width:100%; max-width:1080px; height: auto; alt=네이버 랩스 번역기 프로토타입">
+ 	</div>
+
+ 	<div class ="text" style= "margin-top:13px;">
+ 		<aricle_txt_kor>
+		기계번역, 음성번역, OCR번역, 글로벌 회화등 4가지의 번역방식이 있으며 각각의 번역방식을 좌우 플리킹을 통해 넘겨서 바꿀 수 있다. 
+		중앙 라인을 활용하여 음성번역을 경우 중앙의 라인이 음성을 감지하는 역활을 하고, 
+		OCR의 경우 Input영역이 카메라모드로 바껴서 번역할 문구와 결과값을 동시에 실시간으로 확인 할 수 있다. 
+		좌측 상단의 햄버거 버튼을 탭하면 앱의 전체 구조를 파악할 수 있는 페이지에 접근 할 수 있고 유틸기능들을 이용 할 수 있다.
+		</aricle_txt_kor>
+ 	</div>
+
+ 	<div class ="text" style= "margin-top:13px;">
+ 		<img src="img/pf/trans/trans_feature_02.png" style= "width:100%; max-width:1080px; height: auto; alt=네이버 랩스 번역기 프로토타입">
+ 	</div>
+
+
+ 	<div class ="bar_nomargin" style= "margin-top:44px;"></div>
+ 	<div class ="text" style= "margin-top:30px;">
+ 		<txt_title>Interactive<br>history</txt_title>
+ 	</div>
+ 	<div class ="text" style= "margin-top:19px;">
+ 		<aricle_txt_kor>
+ 		1:1 대화형 컨셉으로 UI를 가져가면서 번역 기록 역시 쌓이는 형태를 고려하였다. 
+ 		현재 번역 문장에서 이전 번역을 보고 싶으면 위로 스크롤하면 바로 확인 할 수 있다. 
+ 		번역이 끝난 후 번역 내역에 대화형 기록을 그대로 저장 할 수도 있다.
+ 		</aricle_txt_kor>
+ 	</div>
+ 	
+	<div class ="text" style= "margin-top:13px;">
+ 		<img src="img/pf/trans/trans_feature_03.png" style= "width:100%; max-width:1080px; height: auto; alt=네이버 랩스 번역기 프로토타입">
+ 	</div>
+
+
+ 	<div class ="bar_nomargin" style= "margin-top:44px;"></div>
+ 	<div class ="text" style= "margin-top:30px;">
+ 		<txt_title>National<br>Color<br>Customizing</txt_title>
+ 	</div>
+ 	<div class ="text" style= "margin-top:19px;">
+ 		<aricle_txt_kor>
+ 		엔드유저가 국가별로 컬러를 지정할 수 있게 하여 더 확장성 있는 사용성을 고려하였다.
+ 		</aricle_txt_kor>
+ 	</div>
+	<div class ="text" style= "margin-top:13px;">
+ 		<img src="img/pf/trans/trans_feature_04.png" style= "width:100%; max-width:1080px; height: auto; alt=네이버 랩스 번역기 프로토타입">
+ 	</div>
+
+
+
+<!--Next Project------------------------------------------------------------------------------------------->
+
+
+ 	<div class ="next">
+ 		<div class ="bar_nomargin"></div>
+ 		<div style= "margin-top:41px;">
+ 			<txt_next>Next</txt_next>
+ 		</div>
+    <a href= pf_oneroom.html>
+ 		<div class ="text">
+ 			<div class ="imgbox"><txt_title>Naver Oneroom Mobile Service Frist Press</txt_title></div>
+ 			<div class ="imgbox" style= "margin-left:8px; margin-top:15px;"><img src="img/common/next_arrow@2x.png" width="6" height="9"></div>
+ 	  </div>
+    </a>
+ 	</div>
+</section>
+
+
+<!--footer------------------------------------------------------------------------------------------->
+
+
+  <footer>
+   	<div class="copyright">
+		<div class="copy_box">
+  			<div class="copy_txt">
+				<div class="copy_img"></div><copytxt>&nbspJeong. Jae-hwa.</copytxt>
+  				<!--<img src="img/common/copy@2x.png" width="12" height="12" align = "left" style="opacity:1; padding-top:1px;" >&nbspJeong. Jae-hwa. -->
+  			</div>
+		</div>
+		<div class="copy_box">
+			<div class="copy_txt">
+				<copytxt>jjunghwa85@gmail.com</copytxt>
+			</div>
+		</div>
+  	</div>
+  </footer>
+ </body>
+</html>
