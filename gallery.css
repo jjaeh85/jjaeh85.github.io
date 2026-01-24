@@ -111,7 +111,7 @@ font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFon
 
 	.top .topframe .nav {
 		margin-top:0px;
-		width: 25%;
+		width: 50%;
 		max-width:288px;
 		box-sizing: border-box;
 		/*background-color: rgba(59, 92, 85, .07);*/
