@@ -87,17 +87,15 @@
 		
 	}
 
-
-
-	.footer {
+	.copyright {
 		width: 1176px;
-		margin: auto;
-		bottom: 0;
-		height: 92px;
-		padding: 24px 0px 24px 24px;
-		box-sizing: border-box;
-		/* background-color: rgba(17, 17, 17, .07); */
- 	}
+		/* background-color: rgba(78, 11, 85, 0.0925);*/
+	}
+
+	.copyright .copy_box {
+		width: 288px;
+		/*background-color: rgba(78, 11, 85, 0.0925);*/
+	}
 }
 
 
@@ -164,20 +162,20 @@
 	}
 
 
-	.footer {
+	.copyright {
 		width: 100%;
-		margin: auto;
-		bottom: 0;
-		height: 92px;
-		padding: 24px 0px 24px 20px;
-		box-sizing: border-box;
-		/* background-color: rgba(17, 17, 17, .07); */
- 	}
+		/*background-color: rgba(78, 11, 85, 0.11);*/
+	}
+
+	.copyright .copy_box {
+		width: 25%;
+		/*background-color: rgba(78, 11, 85, 0.111);*/
+	}
 
 }
 
 
-	/* 상단 Top Bar 영역 */
+/* 공통 */	
 
 	img {
 		display:block
@@ -188,6 +186,9 @@
         padding: 0px;
         background-color: rgba(249, 249, 251, 1);
     }
+
+
+/* 상단 Top Bar 영역 */
 
 	.top {
 		position:fixed;
@@ -329,6 +330,32 @@
 	}
 	
 	/*footer------- -------- ----- ---------*/
+
+
+
+footer {
+	z-index:925;
+	width: 100%;
+	height: 72px;
+	margin: 0;
+	bottom: 0;
+}
+
+.copyright {
+	margin: auto;
+	/*width: 1176px;*/
+	height: 100%;
+	/*background-color: rgba(59, 92, 85, .07);*/
+}
+
+.copyright .copy_box {
+	float:left;
+	height: 100%;
+	padding-left: 24px;
+	box-sizing: border-box;
+	/*background-color: rgba(59, 92, 85, .07);*/
+}
+
 copytxt {
 	font-family: 'Pretendard Variable';
 	font-weight: 300;
