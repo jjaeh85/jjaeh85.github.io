@@ -1,6 +1,9 @@
 
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
-font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+@font-face {
+    font-family: 'Pretendard Variable';
+    src: url('font/PretendardVariable.woff2') format('woff2'),
+         url('font/PretendardVariable.ttf') format('truetype'); 
+}
 
 	a:link     {color:#000;text-decoration:none}
 	a:visited  {color:#000;text-decoration:none}
