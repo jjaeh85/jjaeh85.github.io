@@ -9,6 +9,10 @@
 	color: #111;
 }
 
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt contentstxtsub{
+	color: #111;
+}
+
 #touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box-sub .contents-circle{
 	border-color: #111;
 }
@@ -316,14 +320,34 @@ body {
 
 }
 
+#touchSlider ul li .contents .contents-in .contents-compo .contents-box .contents-txt-sub{
+	float:left;
+	margin-top: 12px;
+	margin-left: 24px;
+
+}
+
+
+
+
 contentstxt{
 	font-family: 'Pretendard Variable';
 	font-weight: 400;
 	font-size: 24px;
 	line-height:40px;
-	color: #fff;
+	color: rgba(255, 255, 255, 1);
 	letter-spacing:0.1em;
 }
+
+contentstxtsub{
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	line-height:20px;
+	color: rgba(255, 255, 255, 0.7);
+	letter-spacing:0.1em;
+}
+
 
 section .side_arrow_bt {
 	z-index:925;
