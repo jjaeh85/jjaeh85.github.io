@@ -154,8 +154,8 @@
 	}
 
  	section .contents {
-		margin-top: 92px;
 		margin : Auto;
+		margin-top: 92px;
 		max-width: 744px;
 		/* background-color: rgba(17, 17, 17, .07); */
  	}
