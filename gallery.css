@@ -23,6 +23,11 @@
 }
 */
 
+.top.dark-mode .topframe .nav li .simbol{
+	background-image: url('img/common/$simbol.svg');
+	background-repeat: no-repeat;
+}
+
 .top.dark-mode .topframe .nav li .nav_bt_01{
 	background-image: url('img/common/$icon-edge-24-window-line.svg');
 	background-repeat: no-repeat;
@@ -193,6 +198,15 @@ body {
 		/* background-color: rgba(44, 78, 85, .22); */
 		/* left: 50%; */
 	}
+
+	.top .topframe .nav li .simbol{
+		width:42px;
+		height:24px;
+		background-image: url('img/common/$simbol_white.svg');
+		background-repeat: no-repeat;
+		background-size:42px 24px;
+	}
+
 
 	.top .topframe .nav li .nav_bt_01{
 		width:24px;
