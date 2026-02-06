@@ -32,6 +32,11 @@
 	background-repeat: no-repeat;
 }
 
+.top.dark-mode .topframe .nav li .download{
+	background-image: url('img/common/$icon-edge-24-download-line.svg');
+	background-repeat: no-repeat;
+}
+
 .top.dark-mode .topframe .nav .focused {
 	border-color: #1A1A1C;
 }
@@ -267,7 +272,15 @@ body {
 .top .topframe .nav li .hamburger{
 	width:24px;
 	height:24px;
-	background-image: url('img/common/$icon-edge-24-hamburger-icon-edge-24-white.svg');
+	background-image: url('img/common/$icon-edge-24-hamburger-line-white.svg');
+	background-repeat: no-repeat;
+	background-size:24px 24px;
+}
+
+.top .topframe .nav li .download{
+	width:24px;
+	height:24px;
+	background-image: url('img/common/$icon-edge-24-download-line-white.svg');
 	background-repeat: no-repeat;
 	background-size:24px 24px;
 }
