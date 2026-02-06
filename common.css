@@ -1,20 +1,19 @@
-
-/*contents dark-mode------- -------- ----- ---------*/
+/*콘텐츠 다크모드------- -------- ----- ---------*/
 
 #touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-line{
-	background-color: rgba(17, 17, 17, 1);
+	background-color: rgba(26, 26, 28, 1);
 }
 
 #touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt contentstxt{
-	color: #111;
+	color: #1A1A1C;
 }
 
 #touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt contentstxtsub{
-	color: #111;
+	color: #1A1A1C;
 }
 
 #touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box-sub .contents-circle{
-	border-color: #111;
+	border-color: #1A1A1C;
 }
 
 /*
@@ -23,17 +22,26 @@
 }
 */
 
-.top.dark-mode .topframe .nav li .simbol{
+.top.dark-mode .topframe .topsimbol li .simbol{
 	background-image: url('img/common/$simbol.svg');
 	background-repeat: no-repeat;
 }
 
-.top.dark-mode .topframe .nav li .nav_bt_01{
+.top.dark-mode .topframe .nav li .hamburger{
+	background-image: url('img/common/$icon-edge-24-hamburger-line.svg');
+	background-repeat: no-repeat;
+}
+
+.top.dark-mode .topframe .nav .focused {
+	border-color: #1A1A1C;
+}
+
+.top.dark-mode .topframe .nav li .nav_bt_window{
 	background-image: url('img/common/$icon-edge-24-window-line.svg');
 	background-repeat: no-repeat;
 }
 
-.top.dark-mode .topframe .nav li .nav_bt_02{
+.top.dark-mode .topframe .nav li .nav_bt_gallery{
 	background-image: url('img/common/$icon-edge-24-gallery-line.svg');
 	background-repeat: no-repeat;
 }
@@ -49,15 +57,17 @@ section.dark-mode .side_arrow_bt .next .next_img {
 	background-repeat: no-repeat;
 }
 
-
 footer.dark-mode .copyright .copy_box copytxt{
-	color: rgba(17, 17, 17, 0.92);
+	color: rgba(26, 26, 28, 0.92);
 }
 
 
 
-/*Common Font------- -------- ----- ---------*/
 
+
+
+
+/* 폰트------- -------- ----- ---------*/
 
 @font-face {
     font-family: 'Pretendard Variable';
@@ -65,19 +75,29 @@ footer.dark-mode .copyright .copy_box copytxt{
          url('font/PretendardVariable.ttf') format('truetype'); 
 }
 
-	a:link     {color:#000;text-decoration:none}
-	a:visited  {color:#000;text-decoration:none}
-	a:active   {color:#000;text-decoration:none}
-	a:hover    {color:#000;text-decoration:none}
+	a:link     {color:#1A1A1C;text-decoration:none}
+	a:visited  {color:#1A1A1C;text-decoration:none}
+	a:active   {color:#1A1A1C;text-decoration:none}
+	a:hover    {color:#666668;text-decoration:none}
 
 
 
-/*Reactive type------- -------- ----- ---------*/
+
+
+
+
+/* 반응형 PC --------- -- ----- -------*/
 
 @media screen and (min-width:1176px){
 
 	.top .topframe {
 		width: 1176px;
+	}
+	.top .topframe .topsimbol {
+		margin-top:0px;
+		width:288px;
+		box-sizing: border-box;
+		/* background-color: rgba(59, 78, 85, 0.44);*/
 	}
 
 	.top .topframe .nav {
@@ -112,10 +132,23 @@ footer.dark-mode .copyright .copy_box copytxt{
 	}
 }
 
+
+
+
+/* 반응형 Mobile --------- -- ----- -------*/
+
 @media screen and (max-width:1176px){
 
 	.top .topframe {
 		width:100%;
+		/*background-color: rgba(59, 92, 85, .07);*/
+	}
+
+	.top .topframe .topsimbol {
+		margin-top:0px;
+		width: 50%;
+		max-width:288px;
+		box-sizing: border-box;
 		/*background-color: rgba(59, 92, 85, .07);*/
 	}
 
@@ -145,7 +178,8 @@ footer.dark-mode .copyright .copy_box copytxt{
 	}
 
 	.copyright .copy_box {
-		width: 25%;
+		width: 50%;
+		max-width:288px;
 		/*background-color: rgba(78, 11, 85, 0.111);*/
 	}
 }
@@ -153,7 +187,7 @@ footer.dark-mode .copyright .copy_box copytxt{
 
 
 
-/*Common Top------- -------- ----- ---------*/
+/* 상단 공통 --------- -- ----- -------*/
 
 img {
 	display:block
@@ -176,62 +210,88 @@ body {
 	/* background-color: rgba(22, 44, 11, .925); */
 }
 
-	.top .topframe {
-		margin-left: auto;
-		margin-right: auto;
-		/*background-color: rgba(59, 92, 85, .07);*/
-		height:100%;
-	}
-
-	.top .topframe .nav {
-		list-style:none;
-		padding-top: 24px;
-		height:72px;
-		padding-inline-start: 24px;
-		/* background-color: rgba(78, 85, 44, .22); */
-		/* left: -50%; */
-	}
-
-	.top .topframe .nav li {
-		float: left;
-		padding-right:32px;
-		/* background-color: rgba(44, 78, 85, .22); */
-		/* left: 50%; */
-	}
-
-	.top .topframe .nav li .simbol{
-		width:42px;
-		height:24px;
-		background-image: url('img/common/$simbol_white.svg');
-		background-repeat: no-repeat;
-		background-size:42px 24px;
-	}
-
-
-	.top .topframe .nav li .nav_bt_01{
-		width:24px;
-		height:24px;
-		background-image: url('img/common/$icon-edge-24-window-line-white.svg');
-		background-repeat: no-repeat;
-		background-size:24px 24px;
-	}
-
-	.top .topframe .nav li .nav_bt_02{
-		width:24px;
-		height:24px;
-		background-image: url('img/common/$icon-edge-24-gallery-line-white.svg');
-		background-repeat: no-repeat;
-		background-size:24px 24px;
-	}
-
-
-/*----------------------------------------------------------------------------------------*/
-
-
-
-gallery {
-
+.top .topframe {
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba(59, 92, 85, .07);*/
+	height:100%;
 }
+
+.top .topframe .topsimbol {
+	list-style:none;
+	float: left;
+	padding-top: 24px;
+	height:72px;
+	padding-inline-start: 24px;
+	/* background-color: rgba(78, 85, 44, .22); */
+	/* left: -50%; */
+}
+
+.top .topframe .nav {
+	list-style:none;
+	float: left;
+	padding-top: 24px;
+	height:72px;
+	padding-inline-start: 24px;
+	/* background-color: rgba(78, 85, 44, .22); */
+	/* left: -50%; */
+	}
+
+.top .topframe .nav .focused{
+	float:left;
+	margin-top: -10px;
+	margin-left:9px;
+	width:2px;
+	height:2px;
+	border:2px solid;
+	border-color: #F2F2F4;
+	border-radius:4px;
+}
+
+.top .topframe .nav li {
+	float: left;
+	padding-right:32px;
+	/* background-color: rgba(44, 78, 85, .22); */
+	/* left: 50%; */
+}
+
+.top .topframe .topsimbol li .simbol{
+	width:42px;
+	height:24px;
+	background-image: url('img/common/$simbol_white.svg');
+	background-repeat: no-repeat;
+	background-size:42px 24px;
+}
+
+
+.top .topframe .nav li .hamburger{
+	width:24px;
+	height:24px;
+	background-image: url('img/common/$icon-edge-24-hamburger-icon-edge-24-white.svg');
+	background-repeat: no-repeat;
+	background-size:24px 24px;
+}
+
+.top .topframe .nav li .nav_bt_window{
+	width:24px;
+	height:24px;
+	background-image: url('img/common/$icon-edge-24-window-line-white.svg');
+	background-repeat: no-repeat;
+	background-size:24px 24px;
+}
+
+.top .topframe .nav li .nav_bt_gallery{
+	width:24px;
+	height:24px;
+	background-image: url('img/common/$icon-edge-24-gallery-line-white.svg');
+	background-repeat: no-repeat;
+	background-size:24px 24px;
+}
+
+
+
+
+/* 콘텐츠 영역 --------- -- ----- -------*/
 
 Container {
 	float: left;
@@ -306,14 +366,12 @@ body {
 	/* background-color: rgba(17, 17, 17, 0.44);*/
 }
 
-
-
 #touchSlider ul li .contents .contents-in .contents-compo .contents-box .contents-line{
 	margin-top: -1px;
 	margin-left: 24px;
 	width: 24px;
 	height: 2px;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(242, 242, 244, 1);
 }
 
 #touchSlider ul li .contents .contents-in .contents-compo .contents-box-sub .contents-circle{
@@ -323,7 +381,7 @@ body {
 	width:6px;
 	height:6px;
 	border:2px solid;
-	border-color: #fff;
+	border-color: #F2F2F4;
 	border-radius:6px;
 }
 
@@ -342,26 +400,7 @@ body {
 }
 
 
-
-
-contentstxt{
-	font-family: 'Pretendard Variable';
-	font-weight: 400;
-	font-size: 24px;
-	line-height:40px;
-	color: rgba(255, 255, 255, 1);
-	letter-spacing:0.1em;
-}
-
-contentstxtsub{
-	font-family: 'Pretendard Variable';
-	font-weight: 300;
-	font-size: 14px;
-	line-height:20px;
-	color: rgba(255, 255, 255, 0.7);
-	letter-spacing:0.1em;
-}
-
+/* 이전/다음 버튼 --------- -- ----- -------*/
 
 section .side_arrow_bt {
 	z-index:925;
@@ -444,7 +483,7 @@ section .side_arrow_bt .next .next_img {
 
 
 
-/*----------------------------------------------------------------------------------------*/
+/* 풋터 --------- -- ----- -------*/
 
 
 footer {
@@ -469,6 +508,34 @@ footer {
 	padding-left: 24px;
 	box-sizing: border-box;
 	/*background-color: rgba(59, 92, 85, .07);*/
+}
+
+
+
+
+
+
+
+
+/* 폰트 세부 설정 --------- -- ----- -------*/
+
+
+contentstxt{
+	font-family: 'Pretendard Variable';
+	font-weight: 400;
+	font-size: 24px;
+	line-height:40px;
+	color: rgba(242, 242, 244, 1);
+	letter-spacing:0.1em;
+}
+
+contentstxtsub{
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	line-height:20px;
+	color: rgba(255, 255, 255, 0.7);
+	letter-spacing:0.1em;
 }
 
 copytxt {
