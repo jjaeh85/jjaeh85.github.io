@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Pretendard Variable';
     src: url('font/PretendardVariable.woff2') format('woff2'),
@@ -11,9 +10,10 @@
 	a:hover    {color:#000;text-decoration:none}
 
 
-/* 반응형 */
 
 
+	
+/* 반응형 PC --------- -- ----- -------*/
 
 @media screen and (min-width:1176px){
 
@@ -99,6 +99,10 @@
 }
 
 
+
+
+/* 반응형 Mobile --------- -- ----- -------*/
+
 @media screen and (max-width:1176px){
 
 	.top .topframe {
@@ -181,7 +185,7 @@
 }
 
 
-/* 공통 */	
+/* 공통 --------- -- ----- -------*/
 
 	img {
 		display:block
@@ -194,7 +198,7 @@
     }
 
 
-/* 상단 Top Bar 영역 */
+/* 상단 Top 영역 --------- -- ----- -------*/
 
 	.top {
 		position:fixed;
@@ -227,7 +231,7 @@
 
 
 
-	/* 공통 */
+/* 콘텐츠 공통 --------- -- ----- -------*/
 
 
 	.circle {
@@ -242,7 +246,7 @@
 
 	.bar {
 		float: left;
-		background-color: rgba(17, 17, 17, 1);
+		background-color: rgba(26, 26, 28, 1);;
 		width: 11px;
 		height: 2px;
 	}
@@ -252,7 +256,9 @@
 		width: 100%
 	}
 
-	/*프로젝트 상세 정보 공통*/
+
+
+/* 프로젝트 상세 정보 공통 --------- -- ----- -------*/
 
 	section {
 		margin:	auto;
@@ -269,8 +275,59 @@
 	section .end .description {
 		margin-top:28px;
 	}
-
     
+	.subtitle {
+		width:100%;
+	}
+
+	.body {
+		width:100%;
+		margin-top: 12px;
+	}
+
+	.imgbox {
+		float: left;
+		width:100%;
+		
+	}
+
+
+
+
+
+/* 풋터 ------- -------- ----- ---------*/
+
+footer {
+	z-index:925;
+	width: 100%;
+	height: 72px;
+	margin: 0;
+	bottom: 0;
+}
+
+.copyright {
+	margin: auto;
+	/*width: 1176px;*/
+	height: 100%;
+	/*background-color: rgba(59, 92, 85, .07);*/
+}
+
+.copyright .copy_box {
+	float:left;
+	height: 100%;
+	padding-left: 24px;
+	box-sizing: border-box;
+	/*background-color: rgba(59, 92, 85, .07);*/
+}
+
+
+
+
+
+
+/* 폰트 상세 ------- -------- ----- ---------*/
+
+
 	txt_title {
 		font-family: 'Pretendard Variable';
 		font-weight: 600;
@@ -298,25 +355,6 @@
 		letter-spacing:0em;
 	}	
 
-
-	/* 콘텐츠 */
-
-
-	.subtitle {
-		width:100%;
-	}
-
-	.body {
-		width:100%;
-		margin-top: 12px;
-	}
-
-	.imgbox {
-		float: left;
-		width:100%;
-		
-	}
-
 	aricle_title {
 		font-family: 'Pretendard Variable';
 	 	font-weight: 500;
@@ -335,37 +373,12 @@
 		line-height:28px;
 	}
 	
-	/*footer------- -------- ----- ---------*/
 
-
-
-footer {
-	z-index:925;
-	width: 100%;
-	height: 72px;
-	margin: 0;
-	bottom: 0;
-}
-
-.copyright {
-	margin: auto;
-	/*width: 1176px;*/
-	height: 100%;
-	/*background-color: rgba(59, 92, 85, .07);*/
-}
-
-.copyright .copy_box {
-	float:left;
-	height: 100%;
-	padding-left: 24px;
-	box-sizing: border-box;
-	/*background-color: rgba(59, 92, 85, .07);*/
-}
 
 copytxt {
 	font-family: 'Pretendard Variable';
 	font-weight: 300;
 	font-size: 14px;
-	color: rgba(17, 17, 17, 0.7);
+	color: rgba(26, 26, 28, 0.7);
 	letter-spacing:0.1em;
 }
