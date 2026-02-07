@@ -69,12 +69,12 @@
 	}
 	section .contents_area {
 		margin-top: 216px;
-		margin-bottom: 92px;
+		margin-bottom: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
  	section .contents {
-		margin-top: 92px;
+		margin-top: 192px;
 		padding-left: 192px;
 		padding-right: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
@@ -82,7 +82,7 @@
 
 	section .imgbox {
 		float:inherit;
-		margin-top: 92px;
+		margin-top: 40px;
 		height: auto;
 		overflow:auto;
 		
@@ -154,20 +154,20 @@
 
 	section .contents_area {
 		margin-top: 216px;
-		margin-bottom: 92px;
+		margin-bottom: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
  	section .contents {
 		margin : Auto;
-		margin-top: 92px;
+		margin-top: 192px;
 		max-width: 744px;
 		/* background-color: rgba(17, 17, 17, .07); */
  	}
 
 	section .imgbox {
 		float:inherit;
-		margin-top: 92px;
+		margin-top: 40px;
 		height: auto;
 		overflow:auto;
 	}
