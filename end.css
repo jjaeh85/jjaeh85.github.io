@@ -295,9 +295,12 @@ body {
 		
 	}
 
+
+
+
 	section .output {
-		padding-top: 46px;
-		padding-bottom: 46px;
+		padding-top: 192px;
+		padding-bottom: 92px;
 		width: 100vw;
  		margin-left: calc(-50vw + 50%);
 		background-color: rgba(8, 10, 14, 1);
@@ -308,6 +311,20 @@ body {
 		display: flex;
   		justify-content: center; 
 	}
+
+	section .output .subtitlearea {
+		text-align: center;
+		padding-left:24px;
+		padding-right:24px;
+ 	}
+
+	section .output .bodyarea {
+		padding-top: 16px;
+		padding-bottom: 46px;
+		text-align: center;	
+		padding-left:24px;
+		padding-right:24px;
+ 	}
 
 
 
@@ -388,13 +405,30 @@ footer {
 		color: #666668;
 		line-height:28px;
 	}
-	
+
+	output_title {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 400;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #F2F2F4;
+		line-height:28px;
+	}	
+
+	output_body {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 200;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #99999B;
+		line-height:28px;
+	}
 
 
-copytxt {
-	font-family: 'Pretendard Variable';
-	font-weight: 300;
-	font-size: 14px;
-	color: rgba(26, 26, 28, 0.7);
-	letter-spacing:0.1em;
-}
+	copytxt {
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
+		font-size: 14px;
+		color: rgba(26, 26, 28, 0.7);
+		letter-spacing:0.1em;
+	}
