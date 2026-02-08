@@ -299,8 +299,8 @@ body {
 
 
 	section .output {
-		padding-top: 192px;
-		padding-bottom: 92px;
+		padding-top: 46px;
+		padding-bottom: 46px;
 		width: 100vw;
  		margin-left: calc(-50vw + 50%);
 		background-color: rgba(8, 10, 14, 1);
