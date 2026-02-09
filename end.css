@@ -22,7 +22,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgba(249, 249, 251, 1);
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
 
@@ -47,11 +47,11 @@ body {
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
-	section {
+	article {
 		width: 1176px;
 	}
 
-	section .end {
+	article .end {
 		width: 100%;
 		padding: 0px 24px  0px 24px;
 		box-sizing: border-box;
@@ -59,7 +59,7 @@ body {
 		
 	}
 
-	section .end .title_area {
+	article .end .title_area {
 		padding-top: 216px;
 		height: 360px;
 		padding-left: 192px;
@@ -67,33 +67,33 @@ body {
 		/* background-color: rgba(17, 17, 17, .07);  */
 	}
 
-	section .end .title_area .simbol {
+	article .end .title_area .simbol {
 		width: 96px;
 		height: 96px;
 		padding-top: 36px;
 		padding-left: 36px;
 	}
 
-	section .end .title_area .simbol img {
+	article .end .title_area .simbol img {
 		width: 100%;
   		height: 100%;
 		border-radius: 28px;	
 		object-fit: cover;
 	}
-	section .contents_area {
+	article .contents_area {
 		margin-top: 216px;
 		margin-bottom: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
- 	section .contents {
+ 	article .contents {
 		margin-top: 192px;
 		padding-left: 192px;
 		padding-right: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
  	}
 
-	section .imgbox {
+	article .imgbox {
 		float:inherit;
 		margin-top: 40px;
 		height: auto;
@@ -131,12 +131,12 @@ body {
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
-	section {
+	article {
 		width: 100%;
 
 	}
 
-	section .end {
+	article .end {
 		padding: 0px 20px  0px 20px;
 		box-sizing: border-box;
 		/* background-color: rgba(17, 17, 17, .03);  */
@@ -144,7 +144,7 @@ body {
 		
 	}
 
-	section .end .title_area {
+	article .end .title_area {
 		padding-top: 216px;
 		height: 360px;
 		max-width: 744px;
@@ -152,34 +152,34 @@ body {
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
-	section .end .title_area .simbol {
+	article .end .title_area .simbol {
 		width: 96px;
 		height: 96px;
 		padding-top: 36px;
 		padding-left: 36px;
 	}
 
-	section .end .title_area .simbol img {
+	article .end .title_area .simbol img {
 		width: 100%;
   		height: 100%;
 		border-radius: 28px;	
 		object-fit: cover;
 	}
 
-	section .contents_area {
+	article .contents_area {
 		margin-top: 216px;
 		margin-bottom: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
- 	section .contents {
+ 	article .contents {
 		margin : Auto;
 		margin-top: 192px;
 		max-width: 744px;
 		/* background-color: rgba(17, 17, 17, .07); */
  	}
 
-	section .imgbox {
+	article .imgbox {
 		float:inherit;
 		margin-top: 40px;
 		height: auto;
@@ -268,15 +268,19 @@ body {
 		margin:	auto;
 	}
 
-	section .end .title {
+	article {
+		margin:	auto;
+	}
+
+	article .end .title {
 		margin-top:40px;
 	}
 
-	section .end .sub {
+	article .end .sub {
 		margin-top:8px;
 	}
 
-	section .end .description {
+	article .end .description {
 		margin-top:28px;
 	}
     
@@ -295,14 +299,21 @@ body {
 		
 	}
 
-
+	section .contents {
+		margin : Auto;
+		margin-top: 192px;
+		max-width: 744px;
+		/* background-color: rgba(249, 249, 251, 0.0925); */
+ 	}
 
 
 	section .output {
 		padding-top: 46px;
 		padding-bottom: 46px;
+		/* 
 		width: 100vw;
  		margin-left: calc(-50vw + 50%);
+		*/
 		background-color: rgba(8, 10, 14, 1);
 	}
 
@@ -313,17 +324,13 @@ body {
 	}
 
 	section .output .subtitlearea {
-		text-align: center;
-		padding-left:24px;
-		padding-right:24px;
+		/* text-align: center; */
  	}
 
 	section .output .bodyarea {
 		padding-top: 16px;
 		padding-bottom: 68px;
-		text-align: center;	
-		padding-left:24px;
-		padding-right:24px;
+		/* text-align: center; */
  	}
 
 
