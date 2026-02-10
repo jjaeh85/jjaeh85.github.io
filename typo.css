@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Pretendard Variable';
+    src: url('font/PretendardVariable.woff2') format('woff2'),
+         url('font/PretendardVariable.ttf') format('truetype'); 
+}
+
+	a:link     {color:#000;text-decoration:none}
+	a:visited  {color:#000;text-decoration:none}
+	a:active   {color:#000;text-decoration:none}
+	a:hover    {color:#000;text-decoration:none}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+
+
+
+
+
+
+	typo_title_32_600 {
+		font-family: 'Pretendard Variable';
+		font-weight: 600;
+		font-size: 32px;
+		color: #1A1A1C;
+		line-height:48px;
+		letter-spacing:0em;
+	}
+
+	typo_body_14_400 {
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
+		font-size: 14px;
+		color: #929292;
+		line-height:25px;
+		letter-spacing:0em;
+	}	
+
+	typo_body_16_400 {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 400;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #1A1A1C;
+		line-height:28px;
+	}
+
+	typo_body_16_200 {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 200;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #666668;
+		line-height:28px;
+	}
+
+	typo_body_16_400_light {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 400;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #F2F2F4;
+		line-height:28px;
+	}	
+
+	typo_body_16_200_light {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 200;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #99999B;
+		line-height:28px;
+	}
+
+
+	typo_body_14_300 {
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
+		font-size: 14px;
+		color: rgba(26, 26, 28, 0.7);
+		letter-spacing:0.1em;
+	}
+
+
+
+
+    typo_subtitle_24_400_light{
+    	font-family: 'Pretendard Variable';
+    	font-weight: 400;
+	    font-size: 24px;
+    	line-height:40px;
+    	color: rgba(242, 242, 244, 1);
+    	letter-spacing:0.1em;
+    }
+
+    typo_body_14_300_light{
+	    font-family: 'Pretendard Variable';
+	    font-weight: 300;
+    	font-size: 14px;
+    	line-height:20px;
+    	color: rgba(255, 255, 255, 0.7);
+    	letter-spacing:0.1em;
+    }

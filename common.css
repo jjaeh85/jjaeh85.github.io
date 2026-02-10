@@ -4,11 +4,11 @@
 	background-color: rgba(26, 26, 28, 1);
 }
 
-#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt contentstxt{
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_subtitle_24_400_light{
 	color: #1A1A1C;
 }
 
-#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt contentstxtsub{
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_body_14_300_light_light{
 	color: #1A1A1C;
 }
 
@@ -67,30 +67,10 @@ section.dark-mode .side_arrow_bt .next .next_img {
 	background-repeat: no-repeat;
 }
 
-footer.dark-mode .copyright .copy_box copytxt{
+footer.dark-mode .copyright .copy_box typo_body_14_300_light{
 	color: rgba(26, 26, 28, 0.92);
 }
 
-
-
-
-
-
-
-/* 폰트------- -------- ----- ---------*/
-
-@font-face {
-    font-family: 'Pretendard Variable';
-    src: url('font/PretendardVariable.woff2') format('woff2'),
-         url('font/PretendardVariable.ttf') format('truetype'); 
-}
-
-	a:link     {color:#1A1A1C;text-decoration:none}
-	a:visited  {color:#1A1A1C;text-decoration:none}
-	a:active   {color:#1A1A1C;text-decoration:none}
-	a:hover    {color:#666668;text-decoration:none}
-
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
 
 
@@ -291,11 +271,11 @@ body {
 }
 
 .top .topframe .nav li .pdf{
-	width:35px;
+	width:37px;
 	height:24px;
 	background-image: url('img/common/$icon-edge-24-pdf-line-white.svg');
 	background-repeat: no-repeat;
-	background-size:35px 24px;
+	background-size:37px 24px;
 }
 
 .top .topframe .nav li .nav_bt_window{
@@ -487,26 +467,6 @@ section .side_arrow_bt .next .next_img {
 	margin-left: 24px;
 }
 
-#next-txt {
-	writing-mode:tb-rl;
-	-webkit-transform:rotate(0deg);
-	-moz-transform:rotate(0deg);
-	-o-transform: rotate(0deg);
-	white-space:nowrap;
-	display:block;
-}
-
-#prev-txt {
-	writing-mode:tb-rl;
-	-webkit-transform:rotate(0deg);
-	-moz-transform:rotate(0deg);
-	-o-transform: rotate(0deg);
-	white-space:nowrap;
-	display:block;
-}
-
-*/
-
 
 
 /* 풋터 --------- -- ----- -------*/
@@ -543,31 +503,3 @@ footer {
 
 
 
-/* 폰트 세부 설정 --------- -- ----- -------*/
-
-
-contentstxt{
-	font-family: 'Pretendard Variable';
-	font-weight: 400;
-	font-size: 24px;
-	line-height:40px;
-	color: rgba(242, 242, 244, 1);
-	letter-spacing:0.1em;
-}
-
-contentstxtsub{
-	font-family: 'Pretendard Variable';
-	font-weight: 300;
-	font-size: 14px;
-	line-height:20px;
-	color: rgba(255, 255, 255, 0.7);
-	letter-spacing:0.1em;
-}
-
-copytxt {
-	font-family: 'Pretendard Variable';
-	font-weight: 300;
-	font-size: 14px;
-	color: rgba(255, 255, 255, 0.7);
-	letter-spacing:0.1em;
-}
