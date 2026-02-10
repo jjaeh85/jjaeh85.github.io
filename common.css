@@ -37,6 +37,11 @@
 	background-repeat: no-repeat;
 }
 
+.top.dark-mode .topframe .nav li .pdf{
+	background-image: url('img/common/$icon-edge-24-pdf-line.svg');
+	background-repeat: no-repeat;
+}
+
 .top.dark-mode .topframe .nav .focused {
 	border-color: #1A1A1C;
 }
@@ -85,7 +90,7 @@ footer.dark-mode .copyright .copy_box copytxt{
 	a:active   {color:#1A1A1C;text-decoration:none}
 	a:hover    {color:#666668;text-decoration:none}
 
-
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
 
 
 
@@ -283,6 +288,14 @@ body {
 	background-image: url('img/common/$icon-edge-24-download-line-white.svg');
 	background-repeat: no-repeat;
 	background-size:24px 24px;
+}
+
+.top .topframe .nav li .pdf{
+	width:35px;
+	height:24px;
+	background-image: url('img/common/$icon-edge-24-pdf-line-white.svg');
+	background-repeat: no-repeat;
+	background-size:35px 24px;
 }
 
 .top .topframe .nav li .nav_bt_window{
