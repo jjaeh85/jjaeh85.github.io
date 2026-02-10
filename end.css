@@ -1,7 +1,7 @@
 /* 공통 --------- -- ----- -------*/
 
 img {
-	display:block
+	
 }
 
 body {
@@ -35,6 +35,7 @@ body {
 
 	article {
 		width: 1176px;
+
 	}
 
 	article .end {
@@ -87,13 +88,12 @@ body {
 		
 	}
 
-
 	.copyright {
 		width: 1176px;
 		/* background-color: rgba(78, 11, 85, 0.0925);*/
 	}
 
-	.copyright .copy_box {
+	.copyright .box {
 		width: 288px;
 		/*background-color: rgba(78, 11, 85, 0.0925);*/
 	}
@@ -181,7 +181,7 @@ body {
 		/*background-color: rgba(78, 11, 85, 0.11);*/
 	}
 
-	.copyright .copy_box {
+	.copyright .box {
 		width: 25%;
 		/*background-color: rgba(78, 11, 85, 0.111);*/
 	}
@@ -305,6 +305,20 @@ body {
 		background-color: rgba(8, 10, 14, 1);
 	}
 
+	.contentsgrid {
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 24px;
+	}
+
+	.contentsgrid .column_3 {
+		/* max-width: 360px; */
+		padding: 24px;
+		background-color: rgba(246, 246, 248, 1);
+	}
+
+
 	section .output {
 
 	}
@@ -324,13 +338,6 @@ body {
 		padding-bottom: 68px;
 		/* text-align: center; */
  	}
-
-	.column {
-
-	}
-
-
-
 
 
 
@@ -356,7 +363,7 @@ footer {
 	/*background-color: rgba(59, 92, 85, .07);*/
 }
 
-.copyright .copy_box {
+.copyright .box {
 	float:left;
 	height: 100%;
 	padding-left: 24px;
