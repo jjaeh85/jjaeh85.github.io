@@ -88,7 +88,7 @@ body {
 		
 	}
 
-	.contentsgrid {
+	.contentsgrid_3 {
 		margin-top: 40px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -182,7 +182,7 @@ body {
 		overflow:auto;
 	}
 
-	.contentsgrid {
+	.contentsgrid_3 {
 		margin-top: 40px;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
@@ -327,11 +327,37 @@ body {
 	}
 	*/
 
-	.contentsgrid .column_3 {
+	.contentsgrid_2 {
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 24px;
+	}
+
+	.column {
 		/* max-width: 360px; */
 		padding: 24px;
 		background-color: rgba(246, 246, 248, 1);
 	}
+
+
+
+
+	.column_contents {
+		width: fit-content;
+	}
+
+	.column_contents_vertical {
+		display: flex;
+    	flex-direction: column;
+		width: fit-content;
+		flex-wrap: wrap;
+  		gap: 2px;
+	}
+
+
+	
+
 
 
 	section .output {
