@@ -328,7 +328,7 @@ section .end {
 	*/
 
 .contentsgrid_2 {
-	margin-top: 20px;
+	margin-top: 24px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 24px;
@@ -343,6 +343,8 @@ section .end {
 
 
 
+
+
 .column_contents {
 	width: fit-content;
 }
@@ -353,6 +355,14 @@ section .end {
 	width: fit-content;
 	flex-wrap: wrap;
 	gap: 2px;
+}
+
+.column_contents_horizontal {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	flex-wrap: wrap;
+	gap: 24px;
 }
 
 
