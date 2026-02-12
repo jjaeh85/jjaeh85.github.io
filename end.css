@@ -81,20 +81,20 @@ body {
 
 	article .contentsbox {
 		float: inherit;
-		margin-top: 40px;
+		margin-top: 32px;
 		height: auto;
 		overflow: auto;
 
 	}
 	.contentsgrid_4 {
-		margin-top: 40px;
+		margin-top: 32px;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-gap: 24px;
 	}
 
 	.contentsgrid_3 {
-		margin-top: 40px;
+		margin-top: 32px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 24px;
@@ -189,13 +189,13 @@ body {
 
 	article .contentsbox {
 		float: inherit;
-		margin-top: 40px;
+		margin-top: 32px;
 		height: auto;
 		overflow: auto;
 	}
 
 	.contentsgrid_4 {
-		margin-top: 40px;
+		margin-top: 32px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 16px;
@@ -203,7 +203,7 @@ body {
 	}
 
 	.contentsgrid_3 {
-		margin-top: 40px;
+		margin-top: 32px;
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-gap: 16px;
@@ -290,6 +290,15 @@ body {
 	width: 100%
 }
 
+.circle_4colunm {
+	float: left;
+	/* position: absolute; */
+	width: 262px;
+	height: 262px;
+	border: 1px dashed;
+	border-color: #CCCCCE;
+	border-radius: 50%;
+}
 
 
 /* 프로젝트 상세 정보 공통 --------- -- ----- -------*/
@@ -385,8 +394,8 @@ section .end {
 	flex-direction: column;
 	width: fit-content;
 	flex-wrap: wrap;
-	gap: 2px;
-	margin: 0 auto;
+	/* gap: 2px; */
+	margin: auto; 
 }
 
 .column_contents_horizontal {
