@@ -411,7 +411,7 @@ section .end {
 	width: fit-content;
 	flex-wrap: wrap;
 	/* gap: 2px; */
-	margin: auto; 
+	margin: 0 auto; 
 }
 
 .column_contents_horizontal {
