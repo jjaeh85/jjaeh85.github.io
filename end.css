@@ -290,7 +290,10 @@ body {
 	width: 100%
 }
 
-.circle_4colunm {
+
+
+
+.circle_3colunm {
 	float: left;
 	/* position: absolute; */
 	width: 262px;
@@ -299,6 +302,19 @@ body {
 	border-color: #CCCCCE;
 	border-radius: 50%;
 }
+
+.circle_4colunm {
+	float: left;
+	/* position: absolute; */
+	width: 358px;
+	height: 358px;
+	border: 1px dashed;
+	border-color: #CCCCCE;
+	border-radius: 50%;
+}
+
+
+
 
 
 /* 프로젝트 상세 정보 공통 --------- -- ----- -------*/
