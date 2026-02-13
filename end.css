@@ -10,7 +10,6 @@ body {
 }
 
 
-
 /* 반응형 PC --------- -- ----- -------*/
 
 @media screen and (min-width:1176px) {
@@ -31,13 +30,9 @@ body {
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
-	article {
-		width: 1176px;
-
-	}
-
 	article .end {
-		width: 100%;
+		width: 1176px;
+		margin: auto;
 		padding: 0px 24px 0px 24px;
 		box-sizing: border-box;
 		/* background-color: rgba(17, 17, 17, .03);  */
@@ -86,6 +81,7 @@ body {
 		overflow: auto;
 
 	}
+
 	.contentsgrid_4 {
 		margin-top: 32px;
 		display: grid;
@@ -147,7 +143,7 @@ body {
 		/* background-color: rgba(17, 17, 17, .03);  */
 	}
 
-	section .end {
+	article .end {
 		padding: 0px 20px 0px 20px;
 		box-sizing: border-box;
 	}
@@ -319,13 +315,26 @@ body {
 
 /* 프로젝트 상세 정보 공통 --------- -- ----- -------*/
 
-section {
-	margin: auto;
-}
+
+
+.bg-darkgray { background-color: #9F9FA2; }
+.bg-black { background-color: rgba(8, 10, 14, 1); }
+
+
+
+
+
+
 
 article {
 	margin: auto;
 }
+
+article .end {
+	padding-top: 46px;
+	padding-bottom: 46px;	
+}
+
 
 article .end .title {
 	margin-top: 40px;
@@ -354,22 +363,13 @@ article .end .description {
 
 }
 
-section .contents {
+article .contents {
 	margin: Auto;
 	margin-top: 192px;
 	max-width: 744px;
 	/* background-color: rgba(249, 249, 251, 0.0925); */
 }
 
-section .end {
-	padding-top: 46px;
-	padding-bottom: 46px;
-	/* 
-		width: 100vw;
- 		margin-left: calc(-50vw + 50%);
-		*/
-	background-color: rgba(8, 10, 14, 1);
-}
 
 /*
 	.contentsgrid {
@@ -411,16 +411,16 @@ section .end {
 	width: fit-content;
 	flex-wrap: wrap;
 	/* gap: 2px; */
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 .column_contents_horizontal {
 	display: flex;
 	flex-direction: row;
 	width: fit-content;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
 	gap: 24px;
-	justify-content: center; 
+	justify-content: center;
 }
 
 
@@ -428,22 +428,22 @@ section .end {
 
 
 
-section .output {
+article .output {
 	margin-top: 92px;
 	text-align: center;
 }
 
-section .output .imagearea {
+article .output .imagearea {
 	margin-top: 24px;
 	display: flex;
 	justify-content: center;
 }
 
-section .output .subtitlearea {
+article .output .subtitlearea {
 	/* text-align: center; */
 }
 
-section .output .bodyarea {
+article .output .bodyarea {
 	padding-top: 16px;
 	/* text-align: center; */
 }

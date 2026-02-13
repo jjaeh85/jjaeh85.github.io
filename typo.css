@@ -34,7 +34,7 @@
 		letter-spacing:0em;
 	}
 
-	typo_body_14_400 {
+	typo_body_14_300 {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 14px;
@@ -88,7 +88,7 @@
 	}
 
 
-	typo_body_14_300 {
+	typo_body_14_300_black_alpha {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 14px;
@@ -106,7 +106,7 @@
     	letter-spacing:0.1em;
     }
 
-    typo_body_14_300_light{
+    typo_body_14_300_light_alpha{
 	    font-family: 'Pretendard Variable';
 	    font-weight: 300;
     	font-size: 14px;
