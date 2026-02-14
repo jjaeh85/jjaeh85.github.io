@@ -14,9 +14,7 @@
 
 
 
-
-
-	typo_title_32_600 {
+	typo_title_32_600_g9 {
 		font-family: 'Pretendard Variable';
 		font-weight: 600;
 		font-size: 32px;
@@ -25,7 +23,7 @@
 		letter-spacing:0em;
 	}
 
-	typo_title_32_300 {
+	typo_title_32_300_g9 {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 32px;
@@ -34,16 +32,16 @@
 		letter-spacing:0em;
 	}
 
-	typo_body_14_300 {
+	typo_body_14_300_g5 {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 14px;
-		color: #929292;
+		color: #99999B;
 		line-height:25px;
 		letter-spacing:0em;
 	}	
 
-	typo_body_14_300_black {
+	typo_body_14_300_g9 {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 14px;
@@ -51,7 +49,17 @@
 		color: rgba(26, 26, 28, 1);
 	}
 
-	typo_body_16_400 {
+	typo_body_14_300_g7 {
+		font-family: 'Pretendard Variable';
+		font-weight: 300;
+		font-size: 14px;
+		line-height:25px;
+		color: #666668;
+	}
+	
+
+
+	typo_body_16_400_g9 {
 		font-family: 'Pretendard Variable';
 	 	font-weight: 400;
 		font-size: 16px;
@@ -60,7 +68,26 @@
 		line-height:28px;
 	}
 
-	typo_body_16_200 {
+	typo_body_16_200_g9 {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 200;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #1A1A1C;
+		line-height:28px;
+	}
+
+	typo_body_16_200_g8 {
+		font-family: 'Pretendard Variable';
+	 	font-weight: 200;
+		font-size: 16px;
+		letter-spacing:0em;
+		color: #3E3E40;
+		line-height:28px;
+	}
+
+
+	typo_body_16_200_g7 {
 		font-family: 'Pretendard Variable';
 	 	font-weight: 200;
 		font-size: 16px;
@@ -69,7 +96,8 @@
 		line-height:28px;
 	}
 
-	typo_body_16_400_light {
+
+	typo_body_16_400_dark_g9 {
 		font-family: 'Pretendard Variable';
 	 	font-weight: 400;
 		font-size: 16px;
@@ -88,7 +116,15 @@
 	}
 
 
-	typo_body_14_300_black_alpha {
+
+
+
+
+
+
+
+
+	typo_body_14_300_g9_70 {
 		font-family: 'Pretendard Variable';
 		font-weight: 300;
 		font-size: 14px;
@@ -97,7 +133,7 @@
 	}
 
 
-    typo_subtitle_24_400_light{
+    typo_subtitle_24_400_dark_g1{
     	font-family: 'Pretendard Variable';
     	font-weight: 400;
 	    font-size: 24px;
@@ -106,7 +142,7 @@
     	letter-spacing:0.1em;
     }
 
-    typo_body_14_300_light_alpha{
+    typo_body_14_300_dark_g1{
 	    font-family: 'Pretendard Variable';
 	    font-weight: 300;
     	font-size: 14px;

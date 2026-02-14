@@ -430,7 +430,7 @@ article .contents {
 
 article .output {
 	margin-top: 92px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 article .output .imagearea {

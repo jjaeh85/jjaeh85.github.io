@@ -4,11 +4,11 @@
 	background-color: rgba(26, 26, 28, 1);
 }
 
-#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_subtitle_24_400_light {
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_subtitle_24_400_dark_g1 {
 	color: #1A1A1C;
 }
 
-#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_body_14_300_light_light {
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_body_14_300_dark_g1 {
 	color: #1A1A1C;
 }
 
@@ -67,7 +67,7 @@ section.dark-mode .side_arrow_bt .next .next_img {
 	background-repeat: no-repeat;
 }
 
-footer.dark-mode .copyright .box typo_body_14_300_light_alpha {
+footer.dark-mode .copyright .box typo_body_14_300_dark_g1 {
 	color: rgba(26, 26, 28, 0.92);
 }
 
