@@ -75,7 +75,9 @@ body {
 	}
 
 	article .contentsbox {
-		float: inherit;
+		display: flex; 
+		flex-direction: column;
+		/* float: inherit; */
 		margin-top: 32px;
 		height: auto;
 		overflow: auto;
@@ -184,7 +186,9 @@ body {
 	}
 
 	article .contentsbox {
-		float: inherit;
+		display: flex; 
+		flex-direction: column;
+		/* float: inherit; */
 		margin-top: 32px;
 		height: auto;
 		overflow: auto;
@@ -358,7 +362,6 @@ article .end .description {
 }
 
 .contentsbox {
-	float: left;
 	width: 100%;
 
 }

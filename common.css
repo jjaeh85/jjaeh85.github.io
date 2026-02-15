@@ -8,7 +8,7 @@
 	color: #1A1A1C;
 }
 
-#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt typo_body_14_300_dark_g1 {
+#touchSlider ul li.dark-mode .contents .contents-in .contents-compo .contents-box .contents-txt-sub typo_body_14_300_dark_g1 {
 	color: #1A1A1C;
 }
 
@@ -396,6 +396,7 @@ body {
 	float: left;
 	margin-top: 24px;
 	margin-left: 24px;
+	width: 100%;
 
 }
 

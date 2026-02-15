@@ -1,308 +1,331 @@
 <!doctype html>
 <html lang="ko">
- <head>
+
+<head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height">
-	<link rel="stylesheet" type="text/css" href="common.css"/>
-	<link rel="stylesheet" type="text/css" href="typo.css"/>
+	<meta name="viewport"
+		content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, height=device-height">
+	<link rel="stylesheet" type="text/css" href="common.css" />
+	<link rel="stylesheet" type="text/css" href="typo.css" />
 	<title>edit</title>
- </head>
+</head>
 
 
- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
- <script type="text/javascript" src="js/jquery.event.drag.js"></script>
- <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
- <script type="text/javascript">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.event.drag.js"></script>
+<script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+<script type="text/javascript">
 
- $(document).ready(function() {
-	$("#touchSlider").touchSlider({
 
-		/*
-		autoplay : {
-			enable : true,
-			pauseHover : true,
-			addHoverTarget : "", // 다른 오버영역 추가 ex) ".someBtn, .someContainer"
-			interval : 3500
-		},
+	$(document).ready(function () {
+		$("#touchSlider").touchSlider({
 
-		roll : true,
-		*/
+			/*
+			autoplay : {
+				enable : true,
+				pauseHover : true,
+				addHoverTarget : "", // 다른 오버영역 추가 ex) ".someBtn, .someContainer"
+				interval : 3500
+			},
+	
+			roll : true,
+			*/
 
-		page : 1,
-		speed : 350,
-		btn_prev : $("#touchSlider").next().find(".btn_prev"),
-		btn_next : $("#touchSlider").next().find(".btn_next"),
+			page: 1,
+			speed: 350,
+			btn_prev: $("#touchSlider").next().find(".btn_prev"),
+			btn_next: $("#touchSlider").next().find(".btn_next"),
 
-		/*
-		counter : function (e) {
-			$("#count").html("current : " + e.current + ", total : " + e.total);
-		}
-		*/
-
-		counter : function (e) {
-			var cur = $("#touchSlider ul li").eq(e.current-1);
-			var isHasDark = cur.hasClass("dark-mode");
-
-			if(isHasDark){
-				$(".top").addClass("dark-mode");
-				$("section").addClass("dark-mode");
-				$("footer").addClass("dark-mode");
-			} else {
-				$(".top").removeClass("dark-mode");
-				$("section").removeClass("dark-mode");
-				$("footer").removeClass("dark-mode");
+			/*
+			counter : function (e) {
+				$("#count").html("current : " + e.current + ", total : " + e.total);
 			}
-		}
+			*/
+
+			counter: function (e) {
+				var cur = $("#touchSlider ul li").eq(e.current - 1);
+				var isHasDark = cur.hasClass("dark-mode");
+
+				if (isHasDark) {
+					$(".top").addClass("dark-mode");
+					$("section").addClass("dark-mode");
+					$("footer").addClass("dark-mode");
+				} else {
+					$(".top").removeClass("dark-mode");
+					$("section").removeClass("dark-mode");
+					$("footer").removeClass("dark-mode");
+				}
+			}
+		});
 	});
- });
 
-
-
-
- </script>
+</script>
 
 
 
 
 
- <body style= "overflow-x:hidden; overflow-y:hidden;">
+<body style="overflow-x:hidden; overflow-y:hidden;">
 
-   <header>
-  	<div class="top">
-  		<div class = "topframe">
-  			<ul class="topsimbol">
-				<li><a href= >
-					<div class ="simbol" style="opacity:1" onmouseover="this.style.opacity='0.92'" onmouseout="this.style.opacity='1'"></div>
-					</a>
+	<header>
+		<div class="top">
+			<div class="topframe">
+				<ul class="topsimbol">
+					<li><a href=>
+							<div class="simbol" style="opacity:1" onmouseover="this.style.opacity='0.92'"
+								onmouseout="this.style.opacity='1'"></div>
+						</a>
+					</li>
+				</ul>
+				<ul class="nav">
+					<li><a href=>
+							<div class="focused"></div>
+							<div class="nav_bt_gallery" style="opacity:1" onmouseover="this.style.opacity='0.92'"
+								onmouseout="this.style.opacity='1'"></div>
+						</a>
+					</li>
+
+					<li><a href=>
+							<!-- <div class ="focused"></div> -->
+							<div class="hamburger" style="opacity:1" onmouseover="this.style.opacity='0.92'"
+								onmouseout="this.style.opacity='1'"></div>
+						</a>
+					</li>
+
+
+				</ul>
+
+				<ul class="nav">
+				</ul>
+
+				<ul class="nav">
+					<li><a href="https://drive.google.com/open?id=1Hjk9uZnkGhDcecA2q_EyJi0lmjyZkTL5" target="_blank">
+							<!-- <div class ="focused"></div> -->
+							<div class="pdf" style="opacity:1" onmouseover="this.style.opacity='0.92'"
+								onmouseout="this.style.opacity='1'"></div>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</header>
+
+
+
+
+
+
+	<section>
+
+		<div id="touchSlider" style="cursor: -webkit-grab; cursor: -moz-grab;">
+			<ul>
+
+				<!-- 1page -->
+
+				<li class="dark-mode" style="background-image: url('img/illust/typeface_segak.svg')">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<a href=>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>Segak:<br>Korean Alphabet<br>Typeface
+										</typo_subtitle_24_400_dark_g1>
+									</div>
+									<div class="contents-txt-sub">
+										<typo_body_14_300_dark_g1>Preparing</typo_body_14_300_dark_g1>
+									</div>
+									</a>
+								</div>
+
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</li>
-  			</ul>
-			<ul class="nav">
-				<li><a href= >
-					<div class ="focused"></div>
-					<div class ="nav_bt_gallery" style="opacity:1" onmouseover="this.style.opacity='0.92'" onmouseout="this.style.opacity='1'"></div>
-					</a>
+
+				<!-- 2page -->
+
+				<li class="dark-mode" style="background-image: url('img/illust/hama_market.svg')">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>HAMA Market:<br>Offline<br>Flea Market
+										</typo_subtitle_24_400_dark_g1>
+									</div>
+									<div class="contents-txt-sub">
+										<typo_body_14_300_dark_g1>Preparing</typo_body_14_300_dark_g1>
+									</div>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</li>
 
-				<li><a href= >
-					<!-- <div class ="focused"></div> -->
-					<div class ="hamburger" style="opacity:1" onmouseover="this.style.opacity='0.92'" onmouseout="this.style.opacity='1'"></div>
-					</a>
+				<!-- 3page -->
+
+				<li style="background-image: url('img/illust/sykkarad_face.png');">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<a href=./end_architect_introduce.html>
+										<div class="contents-txt">
+											<typo_subtitle_24_400_dark_g1>Architect<br>Land of Exile<br>Official Site
+											</typo_subtitle_24_400_dark_g1>
+										</div>
+										<div class="contents-txt-sub">
+											<typo_body_14_300_dark_g1>Detail View</typo_body_14_300_dark_g1>
+										</div>
+									</a>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</li>
 
 
-			</ul>	
+				<!-- 4page -->
 
-			<ul class="nav">
+				<li class="dark-mode" style="background-image: url('img/illust/illustration_vivid.png');">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>Vivid<br>Imagery</typo_subtitle_24_400_dark_g1>
+									</div>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+
+				<!-- 5page -->
+
+				<li style="background-image: url('img/illust/illustration_fantastic_world_in_your_brain.png');">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>Octave<br>Hello<br>Novelty
+										</typo_subtitle_24_400_dark_g1>
+									</div>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+
+
+				<!-- 6page -->
+
+				<li class="dark-mode" style="background-image: url('img/illust/woongjin_bookclub_illustration.png');">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>Woongjin<br>BookClub<br>Any Device<br>ver
+										</typo_subtitle_24_400_dark_g1>
+									</div>
+									<div class="contents-txt-sub">
+										<typo_body_14_300_dark_g1>Preparing</typo_body_14_300_dark_g1>
+									</div>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<!-- 7page -->
+
+				<li class="dark-mode" style="background:#929292">
+					<div class="contents">
+						<div class="contents-in">
+							<div class="contents-compo">
+								<div class="contents-box">
+									<div class="contents-line"></div>
+									<div class="contents-txt">
+										<typo_subtitle_24_400_dark_g1>Temp<br>Temp<br>Temp
+										</typo_subtitle_24_400_dark_g1>
+									</div>
+								</div>
+								<div class="contents-box-sub">
+									<div class="contents-circle"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+
 			</ul>
-
-			<ul class="nav">
-				<li><a href= "https://drive.google.com/open?id=1Hjk9uZnkGhDcecA2q_EyJi0lmjyZkTL5" target="_blank">
-					<!-- <div class ="focused"></div> -->
-					<div class ="pdf" style="opacity:1" onmouseover="this.style.opacity='0.92'" onmouseout="this.style.opacity='1'"></div>
-					</a>
-				</li>
-			</ul>
-
-  		</div>
-	</div>
-  </header>
-
-
-
-
-
-
-  <section>
-
-  	<div id="touchSlider" style = "cursor: -webkit-grab; cursor: -moz-grab;">
-	  <ul>
-
-		<!-- 1page -->
-
-		<li class="dark-mode"  style="background-image: url('img/illust/typeface_segak.svg')">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Segak:<br>Korea<br>Typeface</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-		<!-- 2page -->
-
-		<li class="dark-mode" style="background-image: url('img/illust/hama_market.svg')">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>HAMA<br>Market:<br>Offline<br>Shop</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-		<!-- 3page -->
-
-		<li style="background-image: url('img/illust/sykkarad_face.png');">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<a href=./end_architect_introduce.html>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Architect<br>Land of Exile<br>Official Site</typo_subtitle_24_400_dark_g1>
-							</div>
-							<div class="contents-txt-sub">
-								<typo_body_14_300_dark_g1>Detail View</typo_body_14_300_dark_g1>
-							</div>
-							</a>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-
-		<!-- 4page -->
-
-		<li class="dark-mode" style="background-image: url('img/illust/illustration_vivid.png');">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Vivid<br>Imagery</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-		
-		
-		<!-- 5page -->
-
-		<li style="background-image: url('img/illust/illustration_fantastic_world_in_your_brain.png');">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Octave<br>Hello<br>Novelty</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-
-
-		<!-- 6page -->
-		
-		<li class="dark-mode" style="background-image: url('img/illust/woongjin_bookclub_illustration.png');">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Woongjin<br>BookClub<br>Any Device<br>ver</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-		<!-- 7page -->
-
-		<li class="dark-mode" style="background:#929292">
-			<div class="contents">
-				<div class="contents-in">
-					<div class="contents-compo">
-						<div class="contents-box">
-							<div class="contents-line"></div>
-							<div class="contents-txt">
-								<typo_subtitle_24_400_dark_g1>Temp<br>Temp<br>Temp</typo_subtitle_24_400_dark_g1>
-							</div>
-						</div>
-						<div class="contents-box-sub">
-							<div class="contents-circle"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</li>
-
-
-	  </ul>
-	</div>
-
-
-	<div class="side_arrow_bt">
-		<div class="next">
-			<a href="#" class="btn_next">
-				<div class="next_img"></div>
-			</a>
 		</div>
 
-		<div class="prev">
-			<a href="#" class="btn_prev">
-				<div class="prev_img"></div>
-			</a>
+
+		<div class="side_arrow_bt">
+			<div class="next">
+				<a href="#" class="btn_next">
+					<div class="next_img"></div>
+				</a>
+			</div>
+
+			<div class="prev">
+				<a href="#" class="btn_prev">
+					<div class="prev_img"></div>
+				</a>
+			</div>
 		</div>
-	</div>
 
 
-  </section>
+	</section>
 
 
 
 
-  <footer>
-   	<div class="copyright">
-		<div class="box">
+	<footer>
+		<div class="copyright">
+			<div class="box">
 				<typo_body_14_300_dark_g1>©JJaeh.</typo_body_14_300_dark_g1>
-		</div>
-		<div class="box">
+			</div>
+			<div class="box">
 				<typo_body_14_300_dark_g1>jjaeh85@gmail.com</typo_body_14_300_dark_g1>
+			</div>
 		</div>
-  	</div>
-  </footer>
+	</footer>
 
 
 
- </body>
+</body>
+
 </html>
