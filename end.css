@@ -451,6 +451,23 @@ article .output .bodyarea {
 
 
 
+.youtube {
+	width: 24px;
+	height: 24px;
+	background-image: url('img/common/$icon-youtube-24.svg');
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+}	
+
+.outlink {
+	width: 8px;
+	height: 8px;
+	background-image: url('img/common/$icon-edge-8-outlink.svg');
+	background-repeat: no-repeat;
+	background-size: 8px 8px;
+}	
+
+
 
 
 
