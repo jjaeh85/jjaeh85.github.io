@@ -105,6 +105,10 @@ body {
 		grid-gap: 24px;
 	}
 
+	.grid_img {
+		line-height: 0;
+	}
+
 	.copyright {
 		width: 1176px;
 		/* background-color: rgba(78, 11, 85, 0.0925);*/
@@ -406,6 +410,7 @@ article .contents {
 .column_contents {
 	width: fit-content;
 	margin: 0 auto;
+	line-height: 0;
 }
 
 .column_contents_vertical {
@@ -432,7 +437,7 @@ article .contents {
 
 
 article .output {
-	margin-top: 92px;
+	margin-top: 192px;
 	/* text-align: center; */
 }
 
