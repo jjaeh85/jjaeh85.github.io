@@ -1,152 +1,179 @@
 @font-face {
-    font-family: 'Pretendard Variable';
-    src: url('font/PretendardVariable.woff2') format('woff2'),
-         url('font/PretendardVariable.ttf') format('truetype'); 
+	font-family: 'Pretendard Variable';
+	src: url('font/PretendardVariable.woff2') format('woff2'),
+		url('font/PretendardVariable.ttf') format('truetype');
 }
 
-	a:link     {color:#000;text-decoration:none}
-	a:visited  {color:#000;text-decoration:none}
-	a:active   {color:#000;text-decoration:none}
-	a:hover    {color:#000;text-decoration:none}
+a:link {
+	color: #000;
+	text-decoration: none
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none
+}
+
+a:active {
+	color: #000;
+	text-decoration: none
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none
+}
 
 
 
 
 
 
-	typo_title_32_600_g9 {
-		font-family: 'Pretendard Variable';
-		font-weight: 600;
-		font-size: 32px;
-		color: #1A1A1C;
-		line-height:48px;
-		letter-spacing:0em;
-	}
+typo_title_32_600_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 600;
+	font-size: 32px;
+	color: #1A1A1C;
+	line-height: 48px;
+	letter-spacing: 0em;
+}
 
-	typo_title_32_300_g9 {
-		font-family: 'Pretendard Variable';
-		font-weight: 300;
-		font-size: 32px;
-		color: #1A1A1C;
-		line-height:48px;
-		letter-spacing:0em;
-	}
+typo_title_32_300_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 32px;
+	color: #1A1A1C;
+	line-height: 48px;
+	letter-spacing: 0em;
+}
 
-	typo_body_14_300_g5 {
-		font-family: 'Pretendard Variable';
-		font-weight: 300;
-		font-size: 14px;
-		color: #99999B;
-		line-height:25px;
-		letter-spacing:0em;
-	}	
+typo_body_16_400_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #1A1A1C;
+	line-height: 28px;
+}
 
-	typo_body_14_300_g9 {
-		font-family: 'Pretendard Variable';
-		font-weight: 300;
-		font-size: 14px;
-		line-height:25px;
-		color: rgba(26, 26, 28, 1);
-	}
+typo_body_16_200_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #1A1A1C;
+	line-height: 28px;
+}
 
-	typo_body_14_300_g7 {
-		font-family: 'Pretendard Variable';
-		font-weight: 300;
-		font-size: 14px;
-		line-height:25px;
-		color: #666668;
-	}
-	
-
-
-	typo_body_16_400_g9 {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 400;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #1A1A1C;
-		line-height:28px;
-	}
-
-	typo_body_16_200_g9 {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 200;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #1A1A1C;
-		line-height:28px;
-	}
-
-	typo_body_16_200_g8 {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 200;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #3E3E40;
-		line-height:28px;
-	}
+typo_body_16_200_g8 {
+	font-family: 'Pretendard Variable';
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #3E3E40;
+	line-height: 28px;
+}
 
 
-	typo_body_16_200_g7 {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 200;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #666668;
-		line-height:28px;
-	}
+typo_body_16_200_g7 {
+	font-family: 'Pretendard Variable';
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #666668;
+	line-height: 28px;
+}
+
+typo_body_16_200_g5 {
+	font-family: 'Pretendard Variable';
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #99999B;
+	line-height: 28px;
+}
 
 
-	typo_body_16_400_dark_g9 {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 400;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #F2F2F4;
-		line-height:28px;
-	}	
+typo_body_14_300_g5 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	color: #99999B;
+	line-height: 25px;
+	letter-spacing: 0em;
+}
 
-	typo_body_16_200_light {
-		font-family: 'Pretendard Variable';
-	 	font-weight: 200;
-		font-size: 16px;
-		letter-spacing:0em;
-		color: #99999B;
-		line-height:28px;
-	}
+typo_body_14_300_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: rgba(26, 26, 28, 1);
+}
+
+typo_body_14_300_g7 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	color: #666668;
+}
 
 
 
 
 
 
+typo_body_16_400_dark_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #F2F2F4;
+	line-height: 28px;
+}
+
+typo_body_16_200_light {
+	font-family: 'Pretendard Variable';
+	font-weight: 200;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #99999B;
+	line-height: 28px;
+}
 
 
 
 
-	typo_body_14_300_g9_70 {
-		font-family: 'Pretendard Variable';
-		font-weight: 300;
-		font-size: 14px;
-		color: rgba(26, 26, 28, 0.7);
-		letter-spacing:0.1em;
-	}
 
 
-    typo_subtitle_24_400_dark_g1{
-    	font-family: 'Pretendard Variable';
-    	font-weight: 400;
-	    font-size: 24px;
-    	line-height:40px;
-    	color: rgba(242, 242, 244, 1);
-    	letter-spacing:0.1em;
-    }
 
-    typo_body_14_300_dark_g1{
-	    font-family: 'Pretendard Variable';
-	    font-weight: 300;
-    	font-size: 14px;
-    	line-height:20px;
-    	color: rgba(242, 242, 244, 0.7);
-    	letter-spacing:0.1em;
-    }
+
+
+
+typo_body_14_300_g9_70 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	color: rgba(26, 26, 28, 0.7);
+	letter-spacing: 0.1em;
+}
+
+
+typo_subtitle_24_400_dark_g1 {
+	font-family: 'Pretendard Variable';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	color: rgba(242, 242, 244, 1);
+	letter-spacing: 0.1em;
+}
+
+typo_body_14_300_dark_g1 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(242, 242, 244, 0.7);
+	letter-spacing: 0.1em;
+}
