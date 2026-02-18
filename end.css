@@ -154,7 +154,7 @@ body {
 	}
 
 	article .end .title_area {
-		padding-top: 216px;
+		padding-top: 120px;
 		height: 360px;
 		max-width: 744px;
 		margin: auto;
@@ -177,7 +177,7 @@ body {
 
 	article .contents_area {
 		/* margin-top: 216px; */
-		margin-bottom: 192px;
+		padding-bottom: 192px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
 
@@ -438,7 +438,7 @@ article .contents {
 
 
 article .output {
-	/* padding-top: 192px;*/
+	 padding-top: 92px;
 	/* text-align: center; */
 }
 
@@ -451,6 +451,7 @@ article .output .imagearea {
 article .output .subtitlearea {
 	/* text-align: center; */
 }
+
 
 article .output .bodyarea {
 	padding-top: 16px;
