@@ -183,7 +183,7 @@ body {
 
 	article .contents {
 		margin: Auto;
-		margin-top: 192px;
+		/* margin-top: 192px; */
 		max-width: 744px;
 		/* background-color: rgba(17, 17, 17, .07); */
 	}
@@ -438,7 +438,7 @@ article .contents {
 
 
 article .output {
-	margin-top: 192px;
+	/* padding-top: 192px;*/
 	/* text-align: center; */
 }
 
