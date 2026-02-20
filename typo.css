@@ -47,6 +47,17 @@ typo_title_32_300_g9 {
 	letter-spacing: 0em;
 }
 
+typo_title_20_500_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 500;
+	font-size: 20px;
+	color: #1A1A1C;
+	line-height: 32px;
+	letter-spacing: 0em;
+}
+
+
+
 typo_body_16_400_g9 {
 	font-family: 'Pretendard Variable';
 	font-weight: 400;
