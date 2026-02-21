@@ -206,7 +206,8 @@ body {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 24px;
-		place-items: center;
+		    margin: 0 auto;
+		/* place-items: center; */
 	}
 
 	.contentsgrid_3 {
@@ -314,7 +315,7 @@ body {
 
 
 
-.circle_3colunm {
+.circle_4colunm {
 	float: left;
 	/* position: absolute; */
 	width: 262px;
@@ -324,7 +325,7 @@ body {
 	border-radius: 50%;
 }
 
-.circle_4colunm {
+.circle_3colunm {
 	float: left;
 	/* position: absolute; */
 	width: 358px;
@@ -489,12 +490,26 @@ article .contents {
 	flex-direction: column;
 	/* width: fit-content;  */
 	/* justify-content: center; */
-
 	flex-wrap: wrap;
 	gap: 24px;
 	margin: 0 auto;
 }
 
+.column_contents_vertical_left_in {
+	display: flex;
+	flex-direction: column;
+	/* width: fit-content;  */
+	/* justify-content: center; */
+	/* flex-wrap: wrap; */
+	padding: 24px;
+	gap: 12px;
+}
+
+.column_contents_vertical_left_in_nopadding {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
 
 
 
