@@ -122,6 +122,14 @@ typo_body_14_300_g9 {
 	color: rgba(26, 26, 28, 1);
 }
 
+typo_body_14_500_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+	color: rgba(26, 26, 28, 1);
+}
+
 typo_body_14_300_g7 {
 	font-family: 'Pretendard Variable';
 	font-weight: 300;
