@@ -58,9 +58,9 @@ typo_title_20_500_g9 {
 
 
 
-typo_body_16_400_g9 {
+typo_body_16_500_g9 {
 	font-family: 'Pretendard Variable';
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 	letter-spacing: 0em;
 	color: #1A1A1C;
@@ -92,6 +92,26 @@ typo_body_16_200_g7 {
 	font-size: 16px;
 	letter-spacing: 0em;
 	color: #666668;
+	line-height: 28px;
+}
+
+typo_body_16_300_g7 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #666668;
+	line-height: 28px;
+}
+
+
+
+typo_body_16_300_g9 {
+	font-family: 'Pretendard Variable';
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0em;
+	color: #1A1A1C;
 	line-height: 28px;
 }
 
